@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401B59C81834670500E22D2B /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 401B59C61834670500E22D2B /* HelloWorldViewController.m */; };
+		401B59C91834670500E22D2B /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 401B59C71834670500E22D2B /* HelloWorldViewController.xib */; };
 		40885C7918345A380049C81E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40885C7818345A380049C81E /* Foundation.framework */; };
 		40885C7B18345A380049C81E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40885C7A18345A380049C81E /* CoreGraphics.framework */; };
 		40885C7D18345A380049C81E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40885C7C18345A380049C81E /* UIKit.framework */; };
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		401B59C51834670500E22D2B /* HelloWorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorldViewController.h; path = HelloWorld/HelloWorldViewController.h; sourceTree = "<group>"; };
+		401B59C61834670500E22D2B /* HelloWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloWorldViewController.m; path = HelloWorld/HelloWorldViewController.m; sourceTree = "<group>"; };
+		401B59C71834670500E22D2B /* HelloWorldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HelloWorldViewController.xib; path = HelloWorld/HelloWorldViewController.xib; sourceTree = "<group>"; };
 		40885C7518345A380049C81E /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40885C7818345A380049C81E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		40885C7A18345A380049C81E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +82,9 @@
 		40885C6C18345A380049C81E = {
 			isa = PBXGroup;
 			children = (
+				401B59C51834670500E22D2B /* HelloWorldViewController.h */,
+				401B59C61834670500E22D2B /* HelloWorldViewController.m */,
+				401B59C71834670500E22D2B /* HelloWorldViewController.xib */,
 				40885C7E18345A380049C81E /* HelloWorld */,
 				40885C9718345A380049C81E /* HelloWorldTests */,
 				40885C7718345A380049C81E /* Frameworks */,
@@ -222,6 +230,7 @@
 			files = (
 				40885C8318345A380049C81E /* InfoPlist.strings in Resources */,
 				40885C8B18345A380049C81E /* Images.xcassets in Resources */,
+				401B59C91834670500E22D2B /* HelloWorldViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40885C8918345A380049C81E /* HelloWorldAppDelegate.m in Sources */,
+				401B59C81834670500E22D2B /* HelloWorldViewController.m in Sources */,
 				40885C8518345A380049C81E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +452,7 @@
 				40885CA318345A380049C81E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40885CA418345A380049C81E /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +461,7 @@
 				40885CA618345A380049C81E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
